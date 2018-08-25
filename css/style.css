@@ -1,0 +1,149 @@
+
+#content {
+  color: #262626;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 18px;
+
+
+
+
+  /*
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  width: 50%;
+  */
+}
+
+/*
+#overlow {
+  text-align: left;
+  overflow-wrap: break-word;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+*/
+#content > p {
+  text-align: left;
+}
+
+
+
+#content > h1 {
+  text-align: center;
+}
+
+
+#content > ul {
+  width: 320px;
+  margin: 0 auto;
+  text-align: left;
+  list-style: inside;
+}
+
+#content > h2 {
+  text-align: center;
+}
+
+
+#header > h1 {
+  text-align: center;
+  color: #262626;
+  font-size: 32px;
+}
+
+#header > p {
+  text-align: center;
+  font-size: 28px;
+  color: purple;
+  -webkit-margin-before: -20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    border-radius: 100%;
+}
+
+#nav li {
+  display: inline-block;
+  padding: 50px;
+  background-color: grey;
+}
+
+body > nav {
+  background-color: none;
+  padding: 20px;
+  font-size: 18px;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+body > nav > a{
+  padding: 10px;
+  background-color: grey;
+}
+
+
+a:hover {
+  color: red;
+}
+
+.style {
+  height: 30px;
+  width: 200px;
+}
+
+#footer {
+  position: relative;
+  display: block;
+  background-color: #262626;
+  text-align: center;
+  padding-bottom: 20px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+  #footer p {
+    color: white;
+    font-size: 18px;
+  }
+
+  #footer a {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+ #footer a:hover {
+   color: red;
+ }
+
+#contact {
+  text-align: center;
+  font-size: 18px;
+}
+
+#contact > form > input[type="text"] {
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+#contact > form > button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  padding: 16px 35px;
+  margin: 4px 2px;
+  font-size: 12px;
+}
